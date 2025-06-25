@@ -70,7 +70,7 @@ Extensions Management
   --list-extensions                   List the installed extensions.
   --show-versions                     Show versions of installed extensions,
                                       when using --list-extensions.
-  --category <category>               Filters installed extensions by provided
+  --category <categ ory>               Filters installed extensions by provided
                                       category, when using --list-extensions.
   --install-extension <ext-id | path> Installs or updates an extension. The
                                       argument is either an extension id or a
