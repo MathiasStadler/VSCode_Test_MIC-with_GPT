@@ -1,7 +1,9 @@
-# VSCode_Test_MIC:with_GPT
+# VSCode_Test_MIC_for_GPT
+
+## Sources
 
 - Debian ALSA [![alt text][1]](https://wiki.debian.org/ALSA)
-- Debian which sound system is active [![alt text][1]]()
+- Debian which sound system is active [![alt text][1]](https://superuser.com/questions/47146/how-can-i-find-out-what-programs-are-using-sound-in-linux)
 - Is there a reason for an App to use the pipewire API over ALSA? [![alt text][1]](https://stackoverflow.com/questions/78008373/is-there-a-reason-for-an-app-to-use-the-pipewire-api-over-alsa)
 - Quickstart: Install the Speech SDK - Linux/Debian requirement [![alt text][1]](https://learn.microsoft.com/en-us/azure/ai-services/speech-service/quickstarts/setup-platform?tabs=linux%2Cdebian%2Cdotnetcli%2Cjre%2Cmaven%2Cnodejs%2Cmac%2Cpypi&pivots=programming-language-csharp#tabpanel_1_linux)
 - One of the following commands might give you what you are after [![alt text][1]](https://superuser.com/questions/47146/how-can-i-find-out-what-programs-are-using-sound-in-linux)
@@ -61,10 +63,11 @@ sudo apt-get install build-essential ca-certificates libasound2-dev libssl-dev w
 ```
 
 ## Check/install MS Vscode extension
-
+<!-- markdownlint-disable MD033 -->
 >[!TIP]
 ><!-- -->
->```bash
+>
+```bash
 Extensions Management
   --extensions-dir <dir>              Set the root path for extensions.
   --list-extensions                   List the installed extensions.
@@ -90,6 +93,7 @@ Extensions Management
                                       extension IDs to enable individually.
 
 >```
+<!-- markdownlint-enable MD037 -->
 <!-- -->
 
 - check is already installed
@@ -101,8 +105,6 @@ ms-vscode.vscode-speech-language-pack-de-de
 ```
 <!-- -->
 - install via command line/bash
-
-
 
 > [!NOTE]
 > Supported Languages
