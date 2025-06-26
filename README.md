@@ -67,31 +67,30 @@ sudo apt-get install build-essential ca-certificates libasound2-dev libssl-dev w
 >[!TIP]
 ><!-- -->
 >
-```bash
-Extensions Management
-  --extensions-dir <dir>              Set the root path for extensions.
-  --list-extensions                   List the installed extensions.
-  --show-versions                     Show versions of installed extensions,
-                                      when using --list-extensions.
-  --category <categ ory>               Filters installed extensions by provided
-                                      category, when using --list-extensions.
-  --install-extension <ext-id | path> Installs or updates an extension. The
-                                      argument is either an extension id or a
-                                      path to a VSIX. The identifier of an
-                                      extension is '${publisher}.${name}'. Use
-                                      '--force' argument to update to latest
-                                      version. To install a specific version
-                                      provide '@${version}'. For example:
-                                      'vscode.csharp@1.2.3'.
-  --pre-release                       Installs the pre-release version of the
-                                      extension, when using
-                                      --install-extension
-  --uninstall-extension <ext-id>      Uninstalls an extension.
-  --update-extensions                 Update the installed extensions.
-  --enable-proposed-api <ext-id>      Enables proposed API features for
-                                      extensions. Can receive one or more
-                                      extension IDs to enable individually.
-
+>```bash
+>Extensions Management
+>  --extensions-dir <dir>              Set the >root path for extensions.
+>  --list-extensions                   List the installed extensions.
+>  --show-versions                     Show versions of installed extensions,
+>                                      when using --list-extensions.
+>  --category <categ ory>               Filters installed extensions by provided
+>                                      category, when using --list-extensions.
+>  --install-extension <ext-id | path> Installs or updates an extension. The
+>                                      argument is either an extension id or a
+>                                      path to a VSIX. The identifier of an
+>                                      extension is '${publisher}.${name}'. Use
+>                                      '--force' argument to update to latest
+>                                      version. To install a specific version
+>                                      provide '@${version}'. For example:
+>                                      'vscode.csharp@1.2.3'.
+>  --pre-release                       Installs the pre-release version of the
+>                                      extension, when using
+>                                      --install-extension
+>  --uninstall-extension <ext-id>      Uninstalls an extension.
+>  --update-extensions                 Update the installed extensions.
+>  --enable-proposed-api <ext-id>      Enables proposed API features for
+>                                      extensions. Can receive one or more
+>                                      extension IDs to enable individually.
 >```
 <!-- markdownlint-enable MD037 -->
 <!-- -->
@@ -111,5 +110,10 @@ ms-vscode.vscode-speech-language-pack-de-de
 
 The VS Code Speech extension supports 26 languages in total. You can configure the setting accessibility.voice.speechLanguage to the desired language for speech recognition and synthesis. This may require additional extensions to be installed for the language support.
 <!-- -->
+>[!TIP]
+><!-- -->
+>```bash
+>echo "Hello World"
+>```
 <!-- Link sign - Don't Found a better way :-( - You know a better method? - send me a email,please -->
 [1]: img/link_symbol.svg
