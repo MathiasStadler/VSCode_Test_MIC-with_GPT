@@ -1,5 +1,13 @@
 # VSCode_Test_MIC_for_GPT
 
+## Motivation
+
+- Motivation to see how we are doing
+
+## Reason
+
+- For fun, out of curiosity, to learn, to browse the market with their own tools, etc.
+
 ## Sources
 
 - Debian ALSA [![alt text][1]](https://wiki.debian.org/ALSA)
@@ -23,7 +31,7 @@ Wed Jun 25 06:35:25 PM CEST 2025
 <!-- -->
 ```bash
     > Cat /etc/os-release 
-    PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"
+    PRETTY_NAME="Debian GNU/Linuxhttps://docs.python.org/3/library/venv.html 12 (bookworm)"
     NAME="Debian GNU/Linux"
     VERSION_ID="12"
     VERSION="12 (bookworm)"
@@ -95,7 +103,7 @@ sudo apt-get install build-essential ca-certificates libasound2-dev libssl-dev w
 <!-- markdownlint-enable MD037 -->
 <!-- -->
 
-- check is already installed
+- Check whether the extensions are already installed. If not, install them via the command line with the following commands or via the extension dialog in MS VSCode
 <!-- -->
 ```bash
 > code --list-extensions |grep speech
@@ -103,8 +111,15 @@ ms-vscode.vscode-speech
 ms-vscode.vscode-speech-language-pack-de-de
 ```
 <!-- -->
-- install via command line/bash
-
+- install via command line
+<!-- -->
+```bash
+code --install-extension ms-vscode.vscode-speech
+echo $? # should return zero for correct installation
+code --install-extension ms-vscode.vscode-speech-language-pack-de-de
+echo $? # should return zero for correct installation
+```
+<!-- -->
 > [!NOTE]
 > Supported Languages
 
